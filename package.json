@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://jthuang-nunu.github.io/caotian-website",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "depoly": "gh-pages -d out"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "list": "^2.0.19",
     "marked": "^12.0.2",
     "next": "^14.1.0",
