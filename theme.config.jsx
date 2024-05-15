@@ -5,10 +5,13 @@ import Image from 'next/image';
 //         marginRight: '0.3rem',
 //     }
 // }
+const src = `${process.env.BASE_PATH || ''}`
+console.log(src)
 export default {
+    
     logo:
     <> 
-        <Image src="/assets/nunu2-transparent.svg" width="45" height="45" alt="  "/>
+        <Image src={`/${src}assets/nunu2-transparent.svg`} width="45" height="45" alt="  "/>
         <div>
             {'\u00A0'} Nunu's Blog
         </div>
@@ -21,13 +24,13 @@ export default {
     chat: {
         link: 'https://medium.com/@zx6014',
         icon: (
-        <Image src="/assets/medium-icon.svg" width={24} height={24}/>
+        <Image src={`/${src}assets/medium-icon.svg`} width={24} height={24}/>
         )
     },
     head: ()=> {
         return (
             <>
-                <link rel="icon" href="/assets/nunu2-transparent.svg" type="image/svg" />
+                <link rel="icon" href={`/${src}assets/nunu2-transparent.svg`} type="image/svg" />
             </>
         )
     },
