@@ -4,3 +4,11 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra()
+
+const nextConfig = {
+  basePath: "/caotian-website",
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
