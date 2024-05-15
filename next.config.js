@@ -4,10 +4,9 @@ const withNextra = require('nextra')({
 })
 
 const nextConfig = {
-  basePath: "/caotian-website",
-  assetPrefix: "/caotian-website/",
+  basePath: process.env.BASE_PATH,
+  assetPrefix: process.env.ASSET_PREFIX,
   reactStrictMode: true,
 };
 
-// 使用 withNextra 高階函數來封裝你的 nextConfig
 module.exports = withNextra(nextConfig);
