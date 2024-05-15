@@ -12,7 +12,7 @@ const withNextra = require('nextra')({
 //   // images: {
 //   //   unoptimized: true,
 //   // },
-}
+// }
   
 // module.exports = withNextra(nextConfig)
 module.exports = withNextra()
