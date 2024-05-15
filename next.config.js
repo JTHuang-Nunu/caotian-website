@@ -3,12 +3,11 @@ const withNextra = require('nextra')({
     themeConfig: './theme.config.jsx'
 })
 
-module.exports = withNextra()
-
 const nextConfig = {
   basePath: "/caotian-website",
-  output: "export",  // <=== enables static exports
+  assetPrefix: "/caotian-website/",
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+// 使用 withNextra 高階函數來封裝你的 nextConfig
+module.exports = withNextra(nextConfig);
