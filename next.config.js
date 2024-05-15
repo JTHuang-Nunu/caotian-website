@@ -8,7 +8,7 @@ const nextConfig = {
   assetPrefix: process.env.ASSET_PREFIX,
   reactStrictMode: true,
   output: 'export',
-  distDir: 'out',
+  distDir: 'dist',
   images: {
     unoptimized: true,
   }
