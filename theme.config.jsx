@@ -5,7 +5,8 @@ import Image from 'next/image';
 //         marginRight: '0.3rem',
 //     }
 // }
-const src = `${process.env.BASE_PATH || ''}`
+// const src = `${process.env.BASE_PATH || ''}`
+const src = process.env.NODE_ENV === 'production' ? 'caotian-website' : ''
 console.log(src)
 export default {
     
