@@ -1,4 +1,20 @@
 {
-    "index": "文章類別",
-    "repair-appliance": "電器維修"
+    "*":{
+        "type": "page"
+    },
+    "index":{
+        "title": "Home",
+        "href": "/"
+    },
+    "repair-appliance": {
+        "title": "Repair Appliance"
+    },
+    "about":{
+      "title": "About me",
+      "type": "page"
+    },
+    "Contact": {
+        "title": "Contact me",
+        "href": "http://www.google.com"
+    }
 }

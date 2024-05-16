@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 // const style = {
 //     imageStyle: {
 //         display: 'inline-block',
@@ -7,7 +8,7 @@ import Image from 'next/image';
 // }
 // const src = `${process.env.ASSET_PREFIX || ''}`
 const src = process.env.NODE_ENV === 'production' ? 'caotian-website/' : ''
-console.log(src)
+
 export default {
     
     logo:
@@ -19,19 +20,31 @@ export default {
     </>
     ,
     project: { //TODO
-        link: "https://github.com/JTHuang-Nunu",
+        link: "https://github.com/JTHuang-Nunu/caotian-website",
     },
     
     chat: {
         link: 'https://medium.com/@zx6014',
         icon: (
-        <Image src={`/${src}assets/medium-icon.svg`} width={24} height={24}/>
+        <img src={`/${src}assets/medium-icon.svg`} width={24} height={24}/>
         )
     },
     head: ()=> {
         return (
             <>
                 <link rel="icon" href={`/${src}assets/nunu2-transparent.svg`} type="image/svg" />
+                {/* <meta property="og:title" content="Example Title" />
+                <meta property="og:description" content="This is an example description." />
+                <meta property="og:image" content="https://example.com/image.jpg" />
+                <meta property="og:url" content="https://example.com/page.html" />
+                <meta property="og:type" content="website" />
+
+                <meta property="og:url" content={url} />
+                <meta property="og:title" content={frontMatter.title || 'Nextra'} />
+                <meta
+                property="og:description"
+                content={frontMatter.description || 'The next site builder'}
+                /> */}
             </>
         )
     },
