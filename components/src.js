@@ -1,3 +1,4 @@
 // config.js
-const src = `${process.env.ASSET_PREFIX}`
+const src = process.env.NODE_ENV === 'production' ? '/caotian-website/' : '/';
+
 export default src;
