@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import src from './components/src'
+import src from '/components/src'
 import { useRouter } from 'next/router';
 // const style = {
 //     imageStyle: {
