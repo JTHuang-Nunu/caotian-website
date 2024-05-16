@@ -7,6 +7,10 @@
         "title": "Repair Appliance",
         "type": "page"
     },
+    "test": {
+        "title": "Test",
+        "type": "page"
+    },
     "about":{
       "title": "About me",
       "type": "page"
