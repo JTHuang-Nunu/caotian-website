@@ -1,23 +1,4 @@
 {
-    "index":{
-        "title": "Home",
-        "type": "page"
-    },
-    "repair-appliance": {
-        "title": "Repair Appliance",
-        "type": "page"
-    },
-    "test": {
-        "title": "Test",
-        "type": "page"
-    },
-    "about":{
-      "title": "About me",
-      "type": "page"
-    },
-    "Contact": {
-        "title": "Contact me",
-        "type": "page",
-        "href": "http://www.google.com"
-    }
+    "index": "文章類別",
+    "repair-appliance": "電器維修123"
 }
