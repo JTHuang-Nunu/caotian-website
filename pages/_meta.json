@@ -1,13 +1,11 @@
 {
-    "*":{
-        "type": "page"
-    },
     "index":{
         "title": "Home",
         "href": "/"
     },
     "repair-appliance": {
-        "title": "Repair Appliance"
+        "title": "Repair Appliance",
+        "type": "page"
     },
     "about":{
       "title": "About me",
@@ -15,6 +13,7 @@
     },
     "Contact": {
         "title": "Contact me",
+        "type": "page",
         "href": "http://www.google.com"
     }
 }
