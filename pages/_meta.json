@@ -1,7 +1,7 @@
 {
     "index":{
         "title": "Home",
-        "href": "/"
+        "type": "page"
     },
     "repair-appliance": {
         "title": "Repair Appliance",

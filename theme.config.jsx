@@ -33,7 +33,7 @@ export default {
     head: ()=> {
         return (
             <>
-                <link rel="icon" href={`${src}assets/nunu2-transparent.svg`} type="image/svg" />
+                <link rel="icon" href={`/${src}assets/nunu2-transparent.svg`} type="image/svg" />
                 {/* <meta property="og:title" content="Example Title" />
                 <meta property="og:description" content="This is an example description." />
                 <meta property="og:image" content="https://example.com/image.jpg" />
