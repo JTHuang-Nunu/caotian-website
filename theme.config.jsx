@@ -7,13 +7,13 @@ import { useRouter } from 'next/router';
 //     }
 // }
 // const src = `${process.env.ASSET_PREFIX || ''}`
-const src = process.env.NODE_ENV === 'production' ? 'caotian-website/' : ''
+const src = process.env.NODE_ENV === 'production' ? '/caotian-website/' : '/'
 
 export default {
     
     logo:
     <> 
-        <Image src={`/${src}assets/nunu2-transparent.svg`} width="45" height="45" alt="  "/>
+        <Image src={`${src}assets/nunu2-transparent.svg`} width="45" height="45" alt="  "/>
         <div>
             {'\u00A0'} Nunu's Blog
         </div>
@@ -26,13 +26,13 @@ export default {
     chat: {
         link: 'https://medium.com/@zx6014',
         icon: (
-        <img src={`/${src}assets/medium-icon.svg`} width={24} height={24}/>
+        <img src={`${src}assets/medium-icon.svg`} width={24} height={24}/>
         )
     },
     head: ()=> {
         return (
             <>
-                <link rel="icon" href={`/${src}assets/nunu2-transparent.svg`} type="image/svg" />
+                <link rel="icon" href={`${src}assets/nunu2-transparent.svg`} type="image/svg" />
                 {/* <meta property="og:title" content="Example Title" />
                 <meta property="og:description" content="This is an example description." />
                 <meta property="og:image" content="https://example.com/image.jpg" />
