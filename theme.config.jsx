@@ -1,5 +1,5 @@
 import Image from 'next/image';
-// import src from './components/src'
+import src from './components/src'
 import { useRouter } from 'next/router';
 // const style = {
 //     imageStyle: {
@@ -7,8 +7,6 @@ import { useRouter } from 'next/router';
 //         marginRight: '0.3rem',
 //     }
 // }
-const src = `${process.env.ASSET_PREFIX}`
-// const src = process.env.NODE_ENV === 'production' ? '/caotian-website/' : '/'
 
 export default {
     
