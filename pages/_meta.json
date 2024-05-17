@@ -9,13 +9,28 @@
     },
     "test": {
         "title": "Test",
-        "type": "page"
+        "type": "page",
+        "display": "hidden"
     },
-    "about":{
-      "title": "About me",
-      "type": "page"
-    },
-    "Contact": {
+    "resource":{
+        "title": "Resource",
+        "type": "menu",
+        "items": {
+            "medium": {
+                "title": "Medium",
+                "href": "/https://medium.com/@zx6014"
+            },
+            "CSDN": {
+                "title": "CSDN",
+                "href": "https://blog.csdn.net/JTnnnnn?spm=1000.2115.3001.5343"
+            },
+            "bahanute":{
+                "title": "巴哈姆特",
+                "href": "https://home.gamer.com.tw/profile/index.php?&owner=qead1234"
+            }
+        }
+    },   
+    "contact": {
         "title": "Contact me",
         "type": "page",
         "href": "http://www.google.com"
